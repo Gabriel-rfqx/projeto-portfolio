@@ -60,7 +60,7 @@ nav#menu a:hover{
 }
 
 main{
-  width: 100vw;
+  width: 100%;
   display: grid;
   grid-template-columns: auto 90% auto;
   gap: 20px;
