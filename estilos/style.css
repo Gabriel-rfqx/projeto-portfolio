@@ -209,8 +209,6 @@ article .video-container{
   flex-direction: column-reverse;
   gap: 20px;
 }
-
-
 #projeto-container .projeto{
   display: flex;
   flex-direction: column;
@@ -234,11 +232,16 @@ article .video-container{
   overflow: hidden;
   border-radius: 8px;
 }
-#projeto-container{
-  
+#projeto-container .site{
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 8px;
 }
-#projeto-container{
-  
+#projeto-container a{
+  text-decoration: none;
+  color: var(--texto);
 }
 
 footer{
@@ -289,5 +292,8 @@ footer a:hover{
   }
   #projeto-container .foto{
     max-width: 40%;
+  }
+  #projeto-container .site{
+       max-width: 40%;
   }
 }
